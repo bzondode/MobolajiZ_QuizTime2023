@@ -39,8 +39,6 @@ while(answer != "T" and answer != "F"):
 # Check user entered correctly and give 1 point 
 if(answer == answers[0]):
   exact += 1
-else:
-  exact
 
 # Proceed to the next question
   note += 1
@@ -58,8 +56,6 @@ while(answer != "T" and answer != "F"):
 # Give 1 point if user made the correct entry
 if(answer == answers[1]):
   exact += 1
-else:
-  exact
 
   # Proceed to the next question
   note += 1
@@ -78,8 +74,6 @@ while(answer != "T" and answer != "F"):
 # Give 1 point if user made the correct entry 
 if(answer == answers[2]):
   exact += 1
-else:
-  exact
 
   # Proceed to the next question
   note += 1
@@ -98,8 +92,6 @@ while(answer != "T" and answer != "F"):
 # Give 1 point if user made the correct entry 
 if(answer == answers[3]):
   exact += 1
-else:
-  exact
 
   # Proceed to the next questions
   note += 1
@@ -116,11 +108,6 @@ while(answer != "T" and answer != "F"):
   
 if(answer == answers[4]):
   exact += 1
-else:
-  exact
-
-  note += 1
-  
 
 print()
 
