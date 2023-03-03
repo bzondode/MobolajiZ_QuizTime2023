@@ -26,11 +26,10 @@ answers = ("T", "T", "F")
 
 answer = ""
 
-# Display question
-print("")
-
 # Loop through questions
 while(answer != "T" and answer != "F"):
+  
+  # Display question
   print(questions[0]) 
   
   # Prompt user for input
